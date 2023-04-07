@@ -1,0 +1,342 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+.single-property .header-v1 {
+    background-color: #000 !important;
+}
+
+.pro-btn{
+    opacity: 0;
+}
+
+.pro-col:hover .pro-title .elementor-heading-title,
+.pro-col:hover .pro-desc,
+.pro-col:hover .pro-category .elementor-heading-title,
+.pro-col:hover .pro-location span.elementor-icon-list-text,
+.pro-col:hover .pro-extra-detail span.elementor-icon-list-text{
+    color: #000 !important
+}
+
+
+.pro-col:hover .pro-price .elementor-heading-title{
+    color: #333 !important
+}
+
+.pro-col:hover .pro-btn{
+    opacity: 1;
+}
+
+.pro-col:hover .pro-extra-detail svg path{
+    fill: #000;
+}
+
+form.booking-form {
+    display: flex;
+    flex-direction: revert;
+    flex-wrap: wrap !important;
+    gap: 20px;
+    justify-content: center;
+    max-width: 100%;
+	margin: 0 auto;
+}
+
+form.booking-form input[type=number]{
+	background-color:  #fff !important;
+}
+
+form.booking-form input:focus {
+    outline: 1px solid #000!important;
+}
+
+form.booking-form label {
+    color: #000000;
+    margin: 0;
+    margin-top: 8px;
+	font-family: var(--e-global-typography-primary-font-family ), Sans-serif;
+}
+
+form.booking-form select {
+    border-radius: 0;
+    appearance: none;
+    background: #fff;
+    background-image: url(../images/select-after.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 0px;
+    background-size: contain;
+    padding:15px;
+	font-family: var(--e-global-typography-primary-font-family ), Sans-serif;
+}
+
+.form-control {
+    padding:15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+	font-family: var(--e-global-typography-primary-font-family ), Sans-serif;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+form.booking-form button.btn.btn-primary {
+    border-radius: 0;
+    width: 100%;
+    background-color: #3cabc0;
+    padding: 17px 0;
+    color: #fff;
+    margin-top: 31px;
+    font-family: var(--e-global-typography-primary-font-family ), Sans-serif;
+}
+
+form.booking-form .col-md-3 {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+}
+
+form.booking-form .col-md-5 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+form.booking-form .col-md-2 {
+    width: 13%;
+    margin-left: 15px;
+}
+
+form.booking-form .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+}
+
+/*Search Page CSS*/
+
+.dgt-search-ele .fearures {
+	display: flex;
+	padding: 10px 15px;
+	justify-content: space-between;
+	text-align: left;
+	background: #09b5bb;
+	color: #fff;
+	font-family: 'Lato';
+}
+.dgt-search-ele .card {
+	background-color: #3b3b3b;
+	position: relative;
+	border-radius: 10px;
+}
+.dgt-search-ele .card-footer{
+	display: flex;
+	padding: 10px 24px;
+	justify-content: space-between;
+	text-align: left;
+	background: #09b5bb;
+	color: #fff;
+}
+
+.dgt-search-ele .card-footer p{
+	color: var(--e-global-color-6b41f24 );
+	font-family: "Poppins", Sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.dgt-search-ele .fearures-content {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.dgt-search-ele .fearures-content p {
+	margin: 0;
+}
+.dgt-search-ele .fearures-content::after {
+	content: "";
+	position: absolute;
+	top: 5%;
+	right: -16%;
+	background-color: #fff;
+	height: 85%;
+	width: 1px;
+}
+
+.dgt-search-ele .fearures-content:nth-child(3) {
+	border-right: 0;
+}
+
+.dgt-search-ele .card-body h4 {
+	color: var(--e-global-color-6b41f24 );
+	font-family: "Poppins", Sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.dgt-search-ele .card-body h5 {
+	font-family: "Poppins", Sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	color: #fff;
+	margin: 10px 0;
+}
+
+.dgt-search-ele .card-body h5 i {
+	font-size: 18px;
+	margin-right: 6px;
+	color: var(--e-global-color-primary );
+}
+
+.dgt-search-ele .card-body p{
+	color: var(--e-global-color-6b41f24 );
+	font-family: "Lato", Sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-bottom: 5px;
+}
+
+.dgt-search-ele .card-header {
+	padding: 20px;
+}
+
+.dgt-search-ele .card-header h3{
+	color: var(--e-global-color-6b41f24 );
+	font-family: "Akrobat", Sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.dgt-search-ele .fearures-content img {
+	width: 24px;
+	filter: brightness(0) invert(1);
+}
+
+.dgt-search-ele .card-footer img {
+	width: 26px;
+}
+
+.dgt-search-ele .col-md-2.gallery-box {
+	font-family: var(--e-global-typography-accent-font-family ), Sans-serif;
+	font-weight: var(--e-global-typography-accent-font-weight );
+}
+
+.dgt-search-ele .price-box p {
+	margin: 0;
+}
+
+.dgt-search-ele .box-icon-list {
+	display: flex;
+	justify-content: end;
+	gap: 15px;
+	align-items: center;
+}
+
+.dgt-search-ele .gallery-box {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: center;
+}
+.dgt-search-ele .gallery-box span {
+	font-family: var(--e-global-typography-accent-font-family ), Sans-serif;
+	font-weight: var(--e-global-typography-accent-font-weight );
+}
+
+.dgt-search-ele a.view-btn {
+	font-family: "Poppins", Sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	fill: var(--e-global-color-secondary );
+	color: var(--e-global-color-secondary );
+	background-color: #FFFFFF;
+	border-radius: 5px 5px 5px 5px;
+	padding: 12px 29px 12px 29px;
+	position: absolute;
+	left: 37%;
+	top: 29%;
+	opacity: 0;
+}
+
+.dgt-search-ele .card:hover a.view-btn{
+	opacity: 1;
+}
+.dgt-search-ele h2.not-found {
+	text-align: center;
+	font-family: var(--e-global-typography-primary-font-family ), Sans-serif;
+	font-weight: var(--e-global-typography-primary-font-weight );
+	margin: 5rem 0;
+	font-size: 2.5rem;
+	width: 100%;
+}
+
+.dgt-search-ele .col-md-4 {
+    width: 32.5%;
+}
+
+.dgt-search-ele .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: flex-start;
+    gap: 15px;
+}
+
+.dgt-search-ele .card-body {
+    padding: 20px;
+}
+.cc-container.dgt-search-ele {
+    padding: 0 1%;
+}
+
+@media screen and (max-width:768px){
+	.dgt-search-ele .col-md-4 {
+		width: 49%;
+	}
+	.dgt-search-ele .fearures-content::after{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.dgt-search-ele .col-md-4 {
+		width: 96%;
+	}
+	.dgt-search-ele .row {
+		justify-content: center;
+	}
+	.dgt-search-ele .fearures-content {
+		gap: 3px;
+	}
+	.dgt-search-ele .fearures {
+		padding: 10px 5px;
+	}
+	form.booking-form .col-md-3 {
+		width: 46%;
+	}
+	form.booking-form .col-md-5 {
+		width: 46%;
+	}
+	form.booking-form .col-md-2 {
+		width: 100%;
+		margin-left: 0;
+	}
+	form.booking-form .col-md-2  button.btn.btn-primary{
+		margin-top: 10px;
+	}
+}
